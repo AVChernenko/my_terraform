@@ -7,9 +7,8 @@
 #----------------------------------------------------------
 
 
-provider "aws" {
-  region = "us-east-1"
-}
+provider "aws" {}
+  
 
 
 resource "aws_instance" "my_webserver" {
